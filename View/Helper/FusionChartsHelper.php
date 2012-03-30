@@ -23,7 +23,8 @@ class FusionChartsHelper extends AppHelper
 	 * @param View
 	 * @param $options array
 	 */
-	public function __construct(View $View, $options = array()){
+	public function __construct(View $View, $options = array())
+	{
 	  parent::__construct($View, $options);	  
 	}	
 
